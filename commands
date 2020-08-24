@@ -1,0 +1,8 @@
+  #Add files to a git repository
+  git init gokul
+  cd gokul
+  touch file1 file2
+  git remote add origin http://192.168.2.151:8081/root/existingproject.git
+  git add .
+  git commit -m "first commit"
+  git push -u origin master
