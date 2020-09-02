@@ -6,3 +6,38 @@
   git add .
   git commit -m "first commit"
   git push -u origin master
+
+
+
+
+Git global setup
+
+git config --global user.name "Admin"
+git config --global user.email "nova.admin@novatium.com"
+
+Create a new repository
+
+git clone https://git.novamcaas.com/nova-admin/test.git
+cd test
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+
+cd existing_folder
+git init
+git remote add origin https://git.novamcaas.com/nova-admin/test.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Push an existing Git repository
+
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://git.novamcaas.com/nova-admin/test.git
+git push -u origin --all
+git push -u origin --tags
+
