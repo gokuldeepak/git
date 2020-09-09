@@ -52,3 +52,12 @@ fatal: Authentication failed for 'https://git.example.com/admin/repository.git/'
 
 git config --system --unset credential.helper
 
+
+#lists local branch
+git branch
+
+#lists all branches in remote
+git branch -r
+
+#lists all remote branches in remote
+git branch -a
