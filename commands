@@ -41,3 +41,14 @@ git remote add origin https://git.novamcaas.com/nova-admin/test.git
 git push -u origin --all
 git push -u origin --tags
 
+
+#This is the Error when commit is done on diffeent branch and push is on different branch
+error: src refspec Vishnu does not match any.
+error: failed to push some refs to 'https://git.example.com/admin/oid.git'
+
+
+#remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://git.example.com/admin/repository.git/'
+
+git config --system --unset credential.helper
+
