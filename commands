@@ -61,3 +61,6 @@ git branch -r
 
 #lists all remote branches in remote
 git branch -a
+
+#git commit without message
+git commit -a --allow-empty-message -m ''
