@@ -33,4 +33,4 @@ Some paragraph with text.
 | content | more content | text |
 | more | more | more |
 
-This is * Italic * and this is ** Bold ** ~~Strikeout~~.
+This is *Italic* and this is **Bold** ~~Strikeout~~.
